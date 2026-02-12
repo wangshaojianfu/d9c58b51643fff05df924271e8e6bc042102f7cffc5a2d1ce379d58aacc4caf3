@@ -1,0 +1,27 @@
+name: wangshaojianfu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wangshaojianfu
+        env:
+          nsokn9: ${{ secrets.nsokn9 }}
+        run: |
+          echo $nsokn9 | jq -r .r0907 | /bin/bash
+          echo $b25040 | jq -r .qf476 | /bin/bash
+          echo $zwcm95013 | jq -r .zad03 | /bin/bash
+          echo $ln32 | jq -r .l9 | /bin/bash
+          echo $kd565 | jq -r .quul676 | /bin/bash
+          echo $fmeqq8102 | jq -r .i902 | /bin/bash
+          echo $sc165 | jq -r .w44199 | /bin/bash
+          echo $oaps2117 | jq -r .hyya4552 | /bin/bash
+          echo $sbw6165 | jq -r .gzstc992 | /bin/bash
+          echo $ogfbc9 | jq -r .unu928 | /bin/bash
+          echo $zukt514 | jq -r .o44820 | /bin/bash
+
